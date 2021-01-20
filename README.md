@@ -54,6 +54,7 @@ $ javac -h . Main.java
 $ sudo gcc -fPIC -shared -I. -I/usr/lib/jvm/java-11-openjdk-amd64/include -I/usr/lib/jvm/java-11-openjdk-amd64/include/linux -o libLabNat.so Ping6.c
 ```
 Есть небольшая вероятность, что Вам придется указать иные директории для поиска заголовочных фалов jni.h и jni_md.h.
+
 3. Запуск приложения
 
 ```sh
